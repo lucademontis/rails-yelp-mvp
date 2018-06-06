@@ -1,0 +1,7 @@
+<h1>All Restaurants:</h1>
+<button>
+<a href="restaurants/new">Add new restaurant</a>
+</button>
+<% @restaurants.each do |restaurant| %>
+  <li><%= restaurant.name  %></li>
+<% end %>
